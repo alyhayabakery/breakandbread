@@ -42,31 +42,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.arabic
+{
+height: 100%;
+background-color: aqua;
+}
+.english
+{
+height: 100%;
+background-color: blueviolet;
+}
 body {
     display: flex;
    justify-content: center;
@@ -86,7 +71,8 @@ body {
     display: flex;
     flex-direction: column;
    gap: 9px;
-   align-items: center;      
+   align-items: center; 
+        
 }
 .button {
     text-decoration: none;
@@ -109,10 +95,11 @@ body {
     text-align: center;
     width: 120px;
     align-items: center;
-    height: 16px;
+    height: 25px;
     font-family: "Tajawal", sans-serif;
     font-weight: 400;
     font-style: normal; 
+    justify-items: auto;
 }
 .button:hover {
     background-color: rgb(39, 37, 37);
@@ -259,6 +246,7 @@ html, body {
   {
     height: auto;
     width: auto;
+    margin-bottom: 5px;
   }
   .googleview
   {
@@ -296,25 +284,6 @@ img {
   {
     font-size: 10px;
   }
-
-.arabic
-{
-height: 100%;
-background-color: red;
 }
-.english
-{
-height: 100%;
-background-color: blue;
-}
-
-
-
-
-
-  
-
-  
-
 
 
