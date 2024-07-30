@@ -45,12 +45,12 @@
 .arabic
 {
 height: 100%;
-background-color: aqua;
+
 }
 .english
 {
 height: 100%;
-background-color: blueviolet;
+
 }
 body {
     display: flex;
