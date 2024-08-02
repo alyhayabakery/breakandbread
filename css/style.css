@@ -702,9 +702,11 @@ mainl
 }
 .wsf
 {
-    font-size: small;
+    font-size: large;
     color: white;
     font-weight: 200px;
+   
+   
 }
 .rialfntt
 {
@@ -884,4 +886,9 @@ margin-top: 10px;
 .namesmrgn
 {
     margin-bottom: 0px;
+}
+
+.lastof
+{
+    margin-bottom: 10px;
 }
